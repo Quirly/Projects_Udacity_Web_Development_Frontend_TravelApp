@@ -1,81 +1,147 @@
 form {
     border: 5px solid white;
-    background-color:aquamarine;
+    background-color:mistyrose;
     width:40vw;
+    height:40vh;
     border-radius: 10px;
-    padding: 40px;
+    padding: 20px;
     align-items: center;
     justify-content: center;
     position:absolute;
-    top: 10vh;
-    right: 1vw;
+    top:10vh;
+    left:10vw;
 }
 
 
 .userInput {
     display: flex;
     flex-direction: column;
-    background-color:white;
     border-radius: 10px;
-    align-items: center;
     justify-content: center;
-    width:100vw;
-}
-
-textarea{
-    border: 5px solid aquamarine;
-}
-
-#submit_button {
-    height: 7vh;
-    width: 80vw;
-    border-radius: 10px;
-    font-size: 16px;
-    font-weight: 400;
-    background-color: aquamarine;
-}
-
-
-#input_text {
+    align-items: center;
+    top: 15vh;
+    height:42vh;
+    width:80vw;
+    border:5px solid white;
     font-size: 12px;
+}
+
+#date_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.input_date{
+    width:9vh;
+    height:5vh;
+    border-color:black;
     border-radius: 10px;
+    margin-left: 10px;
+    margin-right:10px;
+    margin-bottom:10px;
+    text-align: center;
+    font-size: 16px;
+
+}
+.userInputText{
+    width: 70vw;
+    height: 12vh;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:14px;
+    text-align: left;
+    border-radius: 10px;
     align-items: top;
-    height: 20vh;
-    width: 80vw;
     padding: 10px 10px 10px 10px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     vertical-align: top;
 }
 
+
+#submit_button {
+    height: 20vh;
+    width: 70vw;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    background-color:aquamarine;
+}
+
+#input_text {
+    font-size: 16px;
+    width: 70vw;
+    height: 15vh;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: top;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 0px;
+    vertical-align: top;
+    color:peru;
+    font-weight: 400;
+}
+
 @media(min-width:760px) {
+
+    form{
+        border: 5px solid white;
+    }
     
     .userInput {
-        display: flex;
-        flex-direction: column;
-        width: 50vw;
-        height: 40vh;
+        width:38vw;
+        height:40vh;
+        top: 10vh;
+        right:15vw;
+        left: 56vw;
         margin: 50px auto;
         border-radius: 10px;
         align-items: center;
         justify-content: center;
+        border-color: 5px solid white;
+    }
+
+
+    .input_date{
+        width:5vh;
+        height:4vh;
+        border-color:black;
+        border-radius: 10px;
+        margin-left: 10px;
+        margin-right:10px;
+        margin-bottom:10px;
+        text-align: center;
     }
 
     #input_text {
-        font-size: 12px;
+        font-size: 14px;
         border-radius: 10px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         align-items: top;
-        height: 40vh;
-        width: 45vw;
-        padding: 10px 10px 10px 10px;
-        margin-bottom: 20px;
+        height: 4vh;
+        width: 28vw;
+        left:50vw;
+        //padding: 10px 10px 10px 10px;
+        margin-bottom: 5px;
         vertical-align: top;
     }
 
+    .userInputText{
+        width: 28vw;
+        height: 10vh;
+        text-align: center;
+        border-radius: 10px;
+        align-items: top;
+        //padding: 10px 10px 10px 10px;
+        margin-bottom: 0px;
+        vertical-align: top;
+    }
+    
+
+
     #submit_button {
-        height: 7vh;
-        width: 45vw;
+        height: 25vh;
+        width: 30vw;
+        margin-top: 10px;
         border-radius: 10px;
         font-size: 16px;
         background-color: aquamarine;
@@ -85,24 +151,57 @@ textarea{
 } 
 
 @media(min-width:920px) {
-    
+
     .userInput {
         display: flex;
         flex-direction: column;
-        width: 50vw;
-        height: 40vh;
-        margin: 50px auto;
+        width:26vw;
+        height:42vh;
+        top: 6vh;
+        right:0vw;
+        //margin: 50px auto;
         border-radius: 10px;
         align-items: center;
         justify-content: center;
     }
 
+    .userInputText{
+        width: 18vw;
+        height: 7vh;
+    }
+    
+
+    .input_date{
+        width:5vw;
+        border-color:black;
+        border-radius: 10px;
+        margin-left: 10px;
+        margin-right:10px;
+        margin-bottom:5px;
+        text-align: center;
+
+    }
+
+    #input_text {
+        font-size: 16px;
+        border-radius: 10px;
+        align-items: top;
+        width: 12vw;
+        padding: 10px 10px 10px 10px;
+        margin-bottom: 5px;
+        vertical-align: top;
+    }
+    
+
     #submit_button {
-        height: 10vh;
-        width: 45vw;
+        height: 25vh;
+        width: 17vw;
+        right: 20vw;
+        margin-top:10px;
+        margin-bottom:10px;
         border-radius: 10px;
         font-size: 16px;
-        background-color: aquamarine;
+        //background-color: aquamarine;
     }
 
     

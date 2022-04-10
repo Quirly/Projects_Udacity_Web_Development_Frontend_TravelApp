@@ -2,11 +2,12 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-image: url('GUI.jpg');
+    background-image: url('palms_AdobeStock_iPad.jpg');
     background-repeat:  no-repeat;
     -webkit-background-composite: cover;
     background-size: cover;
     line-height: 1.8;
+    background-color:#DEBA9F;
 }
 
 main {
@@ -17,12 +18,14 @@ main {
 #resultbox{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:black;
-    width: 80vw;
+    width: 90vw;
     height: 40vh;
     position:absolute;
-    top: 50vh;
+    top: 62vh;
     right: 10vw;
+    left:8vw;
     padding: 10px 10px 10px 10px;
+    font-size: 14px;
 }
 
 section{
@@ -30,34 +33,119 @@ section{
     width: 100%;
 }
 
+.t_img{
+    background-color: aquamarine;
+    background-repeat:  no-repeat;
+    -webkit-background-composite: contain;
+    background-position: 0px 0px;
+    background-size: 100%;
+    height:35vh;
+    width:50vw;
+    border-radius:10px;
+    border:5px solid white;
+    position:absolute;
+}
+
+#show_img_0{
+    background-image: url('https://pixabay.com/get/g4b54231e36fdc294f7bee757481830d9431329015c95d0402ed55d3efc4fa07a06923a16dc5b040d44f69f99447cee8e2a57346f298f0c39d400a6cd51102aaa_640.jpg'); 
+    width: 100vw;
+    height: 50vh;
+    top: 11vh;
+    left: 0vw;
+    background-repeat:  no-repeat;
+    -webkit-background-composite: cover;
+    background-size: cover;
+    visibility: hidden;
+}
+
+#show_img_1{
+    background-image: url('https://pixabay.com/get/g4b54231e36fdc294f7bee757481830d9431329015c95d0402ed55d3efc4fa07a06923a16dc5b040d44f69f99447cee8e2a57346f298f0c39d400a6cd51102aaa_640.jpg'); 
+    width: 100vw;
+    height: 30vh;
+    top: 100vh;
+    left: 0vw;
+    background-repeat:  no-repeat;
+    -webkit-background-composite: cover;
+    background-size: cover;
+    visibility: hidden;
+}
+
+
+
 @media(min-width:760px) {
 
     body {
         display: flex;
+        background-image: url('palms_AdobeStock_iPad.jpg') no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
         flex-direction: column;
         min-height: 100vh;
-        background-image: url('GUI.jpg');
+        margin-left: 0;
+        padding-left: 0;
         background-repeat:  no-repeat;
         -webkit-background-composite: cover;
-        background-position: 30px 100px;
+        background-position: 0px 60px;
         background-size: 100vw;
         line-height: 1.8;
-        align-items: right;
+        align-items: center;
+        background-color:#DEBA9F;
+        //background-color: linear-gradient(315deg, #a55c1b 0%, #000000 74%);;
     }
 
     #resultbox{
-        width: 60vw;
-        height: 30vh;
-        border:5px solid blanchedalmond;
+        width: 48vw;
+        height: 17.5vh;
+        border:5px solid white;
+        background-color: mistyrose;
         border-radius: 10px;
         position:absolute;
-        top: 60vh;
-        left: 6vw;
+        top: 37vh;
+        right:15vw;
+        left: 5vw;
     }
 
     section{
         align-items: right;
         padding-top: 40px;
+    }
+
+    .t_img{
+        background-color: aquamarine;
+        background-repeat:  no-repeat;
+        -webkit-background-composite: contain;
+        background-position: 0px 0px;
+        background-size: 100%;
+        height:35vh;
+        width:50vw;
+        border-radius:10px;
+        border:5px solid white;
+        position:absolute;
+    }
+    
+    #show_img_0{
+        background-image: url('https://pixabay.com/get/g4b54231e36fdc294f7bee757481830d9431329015c95d0402ed55d3efc4fa07a06923a16dc5b040d44f69f99447cee8e2a57346f298f0c39d400a6cd51102aaa_640.jpg'); 
+        width: 52vw;
+        height: 20vh;
+        top: 14vh;
+        left: 2vw;
+        background-repeat:  no-repeat;
+        -webkit-background-composite: cover;
+        background-size: cover;
+        visibility: hidden;
+    }
+    
+    #show_img_1{
+        background-image: url('https://pixabay.com/get/g4b54231e36fdc294f7bee757481830d9431329015c95d0402ed55d3efc4fa07a06923a16dc5b040d44f69f99447cee8e2a57346f298f0c39d400a6cd51102aaa_640.jpg'); 
+        width: 96vw;;
+        height: 60vh;
+        top: 35vh;
+        left: 2vw;
+        background-repeat:  no-repeat;
+        -webkit-background-composite: cover;
+        background-size: cover;
+        visibility: hidden;
     }
     
 } 
@@ -69,30 +157,68 @@ section{
         flex-direction: column;
         min-height: 100vh;
         background-position: 0px 0px;
-        background-image: url('GUI.jpg');
         background-repeat:  no-repeat;
         -webkit-background-composite: cover;
-        background-size: contain;
+        background-size: cover 100%;
         line-height: 1.8;
         align-items: right;
+        background-color:white;
     }
 
     #resultbox{
-        width: 35vw;
-        height: 30vh;
-        background-color: white;
-        border:5px solid gray;
+        width: 29vw;
+        height: 40vh;
         position:absolute;
-        top: 60vh;
-        right: 0;
-        left: 61vw;
-        align-items: right;
+        top: 54vh;
+        left: 2vw;
+        padding-left: 15px;
+        align-items: left;
         justify-content: flex-end;
+        border-color:5px solid aquamarine;
+        color:black;
+        visibility: hidden;
     }
 
     section{
-        align-items: right;
+        align-items: left;
         padding-top: 40px;
+    }
+
+    .t_img{
+        background-color: aquamarine;
+        background-repeat:  no-repeat;
+        -webkit-background-composite: contain;
+        background-position: 0px 0px;
+        background-size: 100%;
+        height:35vh;
+        width:50vw;
+        border-radius:10px;
+        border:5px solid white;
+        position:absolute;
+    }
+
+    #show_img_0{
+        background-image: url('https://pixabay.com/get/g4b54231e36fdc294f7bee757481830d9431329015c95d0402ed55d3efc4fa07a06923a16dc5b040d44f69f99447cee8e2a57346f298f0c39d400a6cd51102aaa_640.jpg'); 
+        width: 63vw;
+        height: 42vh;
+        top: 11.5vh;
+        left: 2vw;
+        visibility: hidden;
+    }
+
+    #show_img_1{
+        background-image: url('https://pixabay.com/get/g4b54231e36fdc294f7bee757481830d9431329015c95d0402ed55d3efc4fa07a06923a16dc5b040d44f69f99447cee8e2a57346f298f0c39d400a6cd51102aaa_640.jpg'); 
+        width: 60vw;
+        height: 40vh;
+        top: 54vh;
+        left: 31vw;
+        visibility: hidden;
+    }
+
+
+    #random_img{
+        width:30vw;
+        height:30vh;
     }
     
 }    

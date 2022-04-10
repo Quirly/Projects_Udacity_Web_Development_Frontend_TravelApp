@@ -8,3 +8,22 @@ footer {
     position:absolute;
     bottom: 0;
 }
+
+#pixa_img{
+    position: absolute;
+    align-items: right;
+    top:86vh;
+    right:4vw;
+    height:4vh;
+}
+
+@media(min-width:760px) {
+footer{
+    background-color: aquamarine;
+}
+
+#pixa_img{
+    top:88vh;
+    overflow: visible;
+}
+}
