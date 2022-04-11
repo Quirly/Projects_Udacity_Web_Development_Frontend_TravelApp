@@ -1,4 +1,4 @@
-# Front End Nanodegree Program: Evaluate A News Article with NLP
+# Front End Nanodegree Program: CAPSTONE Project - Build a Travel App
 
 This app was developed to create an app that helps you plan your travel. As an endpoint or backend GeoApify API is used to request coordinates for given destination. These coordinates are sent to Weatherbit API to fetch forecast
 data for the time you are traveling. Finally, free pictures from your destination are fetched from Pixabay. The responsive webpage (frontend) and its functions were developed by Quirly. 
