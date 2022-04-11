@@ -26,7 +26,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 // Cors for cross origin allowance
 app.use(cors());
-app.use(express.static('/Users/quirly/Documents/FrontEnd/Udacity_Web_FE_Project_Capstone/travelapp/dist'))
+app.use(express.static(path.join(__dirname, "../../dist")))
 
 // Setup Server
 const port = 3000
@@ -39,12 +39,10 @@ function listening() {
 }
 
 //Integrate API key
-const apiKeyWeather = process.env.apiKeyWeather;
-const apiKeyGeo = process.env.apiKeyGeo;
-const apiKeyPixa = process.env.apiKeyPixa;
-//const apiKeyWeather = '3d30f0ae5af7462cb1ca09424f27eb39';
-//const apiKeyGeo = '15094669a1ab434295b36befa70b51c7';
-//const apiKeyPixa = '26494120-88689451d50b852330b8fde83';
+const apiKeyWeather = process.env.APIKEY_Weather;
+const apiKeyGeo = process.env.APIKEY_Geo;
+const apiKeyPixa = process.env.APIKEY_Pixa;
+
 
 // Routes
 // Route UI

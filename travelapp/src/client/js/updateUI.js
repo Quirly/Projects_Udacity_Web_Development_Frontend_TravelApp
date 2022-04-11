@@ -12,7 +12,7 @@ function timeConverter(UNIX_timestamp) {
 
 function updateUI(temps, temps_max, start_UI, end_UI, PixabayObject, id) {
 
-    let img_url = String(PixabayObject.hits[id].webformatURL)//"url('https://pixabay.com/get/g963e49224a7f9b27e85f234ac611a5aafe263a69d227790922ddbbbf84ee87c6386a83a121799772e770aa1a492e0ac92ca7609e2b035ea5dbe806dc62c69821_640.jpg'//PixabayObject.hits[0].webformatURL')"
+    let img_url = String(PixabayObject.hits[id].webformatURL)
     console.log(img_url)
 
 
@@ -34,7 +34,6 @@ function updateUI(temps, temps_max, start_UI, end_UI, PixabayObject, id) {
     //document.getElementById(element_string).innerText = 'Departure:  ' + temps[end_UI] + " Temp: " + temps[end_UI + 1] + "°C"
 
     let string_img = "show_img_" + String(id)
-    document.body.style.backgroundImage = "url(" + 'palms_AdobeStock_iPad_sw.jpg' + ")"
     document.getElementById(string_img).style.backgroundImage = "url(" + img_url + ")"
     document.getElementById(string_img).style.visibility = "visible";
     document.getElementById("resultbox").style.visibility = "visible";

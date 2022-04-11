@@ -47,7 +47,7 @@ section{
 }
 
 #show_img_0{
-    background-image: url('https://pixabay.com/get/g4b54231e36fdc294f7bee757481830d9431329015c95d0402ed55d3efc4fa07a06923a16dc5b040d44f69f99447cee8e2a57346f298f0c39d400a6cd51102aaa_640.jpg'); 
+    background-image: url('image_back_color.jpg'); 
     width: 100vw;
     height: 50vh;
     top: 11vh;
@@ -59,7 +59,7 @@ section{
 }
 
 #show_img_1{
-    background-image: url('https://pixabay.com/get/g4b54231e36fdc294f7bee757481830d9431329015c95d0402ed55d3efc4fa07a06923a16dc5b040d44f69f99447cee8e2a57346f298f0c39d400a6cd51102aaa_640.jpg'); 
+    background-image: url('image_back_color.jpg'); 
     width: 100vw;
     height: 30vh;
     top: 100vh;
@@ -86,7 +86,7 @@ section{
         padding-left: 0;
         background-repeat:  no-repeat;
         -webkit-background-composite: cover;
-        background-position: 0px 60px;
+        background-position: 0px 0px;
         background-size: 100vw;
         line-height: 1.8;
         align-items: center;
@@ -125,7 +125,6 @@ section{
     }
     
     #show_img_0{
-        background-image: url('https://pixabay.com/get/g4b54231e36fdc294f7bee757481830d9431329015c95d0402ed55d3efc4fa07a06923a16dc5b040d44f69f99447cee8e2a57346f298f0c39d400a6cd51102aaa_640.jpg'); 
         width: 52vw;
         height: 20vh;
         top: 14vh;
@@ -137,9 +136,8 @@ section{
     }
     
     #show_img_1{
-        background-image: url('https://pixabay.com/get/g4b54231e36fdc294f7bee757481830d9431329015c95d0402ed55d3efc4fa07a06923a16dc5b040d44f69f99447cee8e2a57346f298f0c39d400a6cd51102aaa_640.jpg'); 
-        width: 96vw;;
         height: 60vh;
+        width:96vw;
         top: 35vh;
         left: 2vw;
         background-repeat:  no-repeat;
@@ -198,7 +196,6 @@ section{
     }
 
     #show_img_0{
-        background-image: url('https://pixabay.com/get/g4b54231e36fdc294f7bee757481830d9431329015c95d0402ed55d3efc4fa07a06923a16dc5b040d44f69f99447cee8e2a57346f298f0c39d400a6cd51102aaa_640.jpg'); 
         width: 63vw;
         height: 42vh;
         top: 11.5vh;
@@ -207,7 +204,6 @@ section{
     }
 
     #show_img_1{
-        background-image: url('https://pixabay.com/get/g4b54231e36fdc294f7bee757481830d9431329015c95d0402ed55d3efc4fa07a06923a16dc5b040d44f69f99447cee8e2a57346f298f0c39d400a6cd51102aaa_640.jpg'); 
         width: 60vw;
         height: 40vh;
         top: 54vh;

@@ -4,15 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Travel App</title>
-    <!--link rel="icon" href="http://127.0.0.1/favicon.ico" type="image/x-icon">
-    <link rel="shortcut icon" href="http://127.0.0.1/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="../../client/styles/base.css">
-    <link rel="stylesheet" href="../../client/styles/base.css">
-    <link rel="stylesheet" href="../../client/styles/header.css">
-    <link rel="stylesheet" href="../../client/styles/form.css">
-    <link rel="stylesheet" href="../../client/styles/footer.css">-->
-    <!--script type="text/javascript" src="../../../dist/main.js"></script-->
+    <title>Quirly's Travel App Udacity Frontend Web Developer Nanodegree</title>
 </head>
 
 <body>
@@ -34,13 +26,13 @@
             <form class="userInput" onsubmit="return Client.handleSubmitTravel(event)">
                 <div class="userInputText">Please choose a destination:</div>
                 <input id="input_text" type="text" name="input" value="" placeholder="Where do you go?">
-                <div class="userInputText">Please tell us the first day of your trip:</div>
+                <div class="userInputText">First day of your trip (max 16 days ahead):</div>
                 <div id="date_container">
                     <input id="t_day" class="input_date" type="text" name="day" value="" placeholder="01">
                     <input id="t_month" class="input_date" type="text" name="month" value="" placeholder="05">
                     <input id="t_year" class="input_date" type="text" name="year" value="" placeholder="2022">
                 </div>
-                <div class="userInputText">Please tell us the last day of your trip:</div>
+                <div class="userInputText">Last day of your trip:</div>
                 <div id="date_container">
                     <input id="e_day" class="input_date" type="text" name="day" value="" placeholder="01">
                     <input id="e_month" class="input_date" type="text" name="month" value="" placeholder="05">
