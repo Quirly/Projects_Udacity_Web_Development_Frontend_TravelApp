@@ -1,21 +1,26 @@
-# Front End Web Developer Nanodegree Program: CAPSTONE Project - Build a Travel App
+# Front End Web Developer Nanodegree Program: CAPSTONE Project 
 
-This app was developed to create an app that helps you plan your travel. As an endpoint or backend GeoApify API is used to request coordinates for given destination. These coordinates are sent to Weatherbit API to fetch forecast
-data for the time you are traveling. Finally, free pictures from your destination are fetched from Pixabay. The responsive webpage (frontend) and its functions were developed by Quirly. 
+## Build a Travel App
 
-## Table of Contents
+This app was developed to help you to plan your holidays. You can type in a city, start and end date and will get back the weather forecast for the time of travel. 
+
+As an endpoint or backend, GeoApify API is used to request coordinates for a given destination. These coordinates are sent to Weatherbit API to fetch forecast data for the time you are traveling. Additionally, free pictures from your destination are fetched from Pixabay. 
+
+The responsive webpage (frontend) and its functions were developed by Quirly. 
+
+### Table of Contents
 
 * Scope
 * Basic Setup
 * How to use this app
 
-## Scope
+### Scope
 
 This project was developed as final capstone project within the Frontend Web Developer Nanodegree program at Udacity. The base code (or starting point) has been created by Quirly.
 
 The scope of this project was to build a frontend application interacting with various endpoints. This single page application shall provide a possibility for any user to type in a destination, a start date for his or her journey and and end date in a form. This data is then send to the API endpoints sequentially. The response, the forecast data and pictures, shall then be displayed in the frontend to provide the user with the requested information.
 
-## Basic Setup
+### Basic Setup
 
 Please follow these steps to get this app installed:
 
@@ -33,7 +38,7 @@ Please follow these steps to get this app installed:
 * 9 - Start the app by typing in **npm start** in the console (Terminal)
 
 
-## How to Use this App
+### How to Use this App
 
 * Choose a destination that you are interested in getting weather forecast data for
 * Type in start and end date in the boxes below the destination box
