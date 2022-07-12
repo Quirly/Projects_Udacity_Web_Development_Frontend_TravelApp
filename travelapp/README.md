@@ -1,12 +1,12 @@
-# Front End Web Developer Nanodegree Program: CAPSTONE Project 
+# Travel Web App (HTML/CSS/JavaScript/Node/Webpack)
 
-## Build a Travel App
+## Front End Web Developer Nanodegree Program: CAPSTONE Project: Build a Travel App
 
-This app was developed to help you to plan your holidays. You can type in a city, start and end date and will get back the weather forecast for the time of travel. 
+This app was developed within Udacity's Front End Web Developer Nanodegree program as a final project. You can type in a city, start and end date and will get back the weather forecast on a day-to-day basis for the time you are traveling. 
 
-As an endpoint or backend, GeoApify API is used to request coordinates for a given destination. These coordinates are sent to Weatherbit API to fetch forecast data for the time you are traveling. Additionally, free pictures from your destination are fetched from Pixabay. 
+First, you type in a location and a time span. After having submitted, an endpoint or backend, GeoApify API is used to request coordinates for this destination given by the user. These coordinates are then, in a second step, sent to Weatherbit API to fetch forecast data for the time you are traveling. Additionally, free pictures from your destination are fetched from Pixabay to provide you with first impressions of your destination.
 
-The responsive webpage (frontend) and its functions were developed by Quirly. 
+This Single Page App or responsive webpage (frontend) and its functions were developed by Quirly. 
 
 ### Table of Contents
 
