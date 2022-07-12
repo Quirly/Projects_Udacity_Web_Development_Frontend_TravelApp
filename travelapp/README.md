@@ -1,6 +1,6 @@
 # Travel Web App (HTML/CSS/JavaScript/Node/Webpack)
 
-## Front End Web Developer Nanodegree Program: CAPSTONE Project: Build a Travel App
+## Front End Web Developer Nanodegree Program CAPSTONE Project: Build a Travel App
 
 This app was developed within Udacity's Front End Web Developer Nanodegree program as a final project. You can type in a city, start and end date and will get back the weather forecast on a day-to-day basis for the time you are traveling. 
 
